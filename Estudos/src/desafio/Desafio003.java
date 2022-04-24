@@ -1,8 +1,8 @@
-package Coder;
+package desafio;
 
 import java.util.Scanner;
 
-public class testes {
+public class Desafio003 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] salario = new String[4];
