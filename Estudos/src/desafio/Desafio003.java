@@ -12,11 +12,7 @@ public class Desafio003 {
         }
         scan.close();
         try{
-            double sal1 = Double.parseDouble(salario[0]);
-            double sal2 = Double.parseDouble(salario[1]);
-            double sal3 = Double.parseDouble(salario[2]);
-            double media = (sal1+sal2+sal3)/3;
-            System.out.printf("Media: %.2f",media);
+            System.out.printf("Media: %.2f", (Double.parseDouble(salario[0]) + Double.parseDouble(salario[1]) + Double.parseDouble(salario[2]))/3);
         }catch (Exception e){
             System.out.println("Digite apenas numeros!");
         }
