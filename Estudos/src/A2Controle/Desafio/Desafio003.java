@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Desafio003 {
     public static void main(String[] args) {
+        //criar um programa que receba a nota de um aluno, quando fechado(-1) devera mostar o total de notas entradasa, a quantidade de notas
+        //que entrou e a media das notas!
         Scanner scan = new Scanner(System.in);
         var valor = 0F;
         var total = 0F;

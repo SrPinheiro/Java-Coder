@@ -6,7 +6,7 @@ public class A6Equals {
     public static void main(String[] args) {
         System.out.println("2" == "2"); //*VERDADEIRO* pois são iguais
 
-        String s = new String("2");
+        String s = "2";
 
         System.out.println("2" == s); //*FALSO* pois o java não analisa o conteudo e sim o Objeto
         System.out.println("2".equals(s)); //*VERDADEIRO* pois o equals analisa o valor

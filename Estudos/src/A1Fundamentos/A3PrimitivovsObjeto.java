@@ -22,7 +22,7 @@ public class A3PrimitivovsObjeto {
         //se ela for um objeto
 
         System.out.println(a.byteValue());
-        System.out.println(b.toString());
+        System.out.println(b);
 
 
     }
