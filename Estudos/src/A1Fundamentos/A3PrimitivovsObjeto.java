@@ -4,11 +4,12 @@ public class A3PrimitivovsObjeto {
     public static void main(String[] args) {
         //Wrappers são a versão objeto dos tipos primitivos
         //observe a diferente entre letras maiusculas e minusculas
+        // argumento final serve para criar constantes
 
-        Byte a = 100; // byte
-        Short b = 1000; // short
-        Integer c = 10000; // int
-        Long d = 100000L; // long
+        final Byte a = 100; // byte
+        final Short b = 1000; // short
+        final Integer c = 10000; // int
+        final Long d = 100000L; // long
 
         Boolean e = Boolean.parseBoolean("false"); // boolean
 
