@@ -33,17 +33,6 @@ public class A1Array {
             System.out.println(i);
         }
 
-        // array dentro de array
-        System.out.println("====Array dentro de array====");
-
-        int[][] b = new int[20][3];
-        b[0][2] = 6;
-        b[15][1] = 9;
-        b[10][0] = 15;
-
-        System.out.printf("aluno 0 da sala 2: %s\n", b[0][2]);
-        System.out.printf("aluno 15 da sala 1: %s\n", b[15][1]);
-        System.out.printf("aluno 10 da sala 0: %s\n", b[10][0]);
 
 
 
