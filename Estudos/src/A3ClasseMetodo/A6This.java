@@ -20,11 +20,9 @@ public class A6This {
         double preco;
         double desconto;
 
-        //Construtor padrão do java
+        //Construtor
         Produto2 (){
-//            nome = "celular";
-//            preco = 2000;
-//            desconto = 0;
+            //chamando um construtor dentro de outro construtor
             this("celular",2000.0, 0.0);
         }
 

@@ -11,7 +11,12 @@ public class A9Pilha {
         pilha.push("Harry Potter");
         pilha.push("Hobbit");
         pilha.push("livro1231");
-        
+
+        for (var k1 :pilha) {
+            System.out.println(k1);
+
+        }
+
 
         System.out.println(pilha.poll());
         System.out.println(pilha.poll());
