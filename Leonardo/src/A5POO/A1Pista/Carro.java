@@ -1,7 +1,5 @@
 package A5POO.A1Pista;
 
-import A5POO.Motor;
-
 class Carro{
     Motor m1 = new Motor();
 
