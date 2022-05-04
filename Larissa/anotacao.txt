@@ -1,8 +1,0 @@
-Tudo em java são objetos tirando os tipos primitivos como
-tipo inteiro(int), double, char, long, float, byte etc ...
-
-A dirença entre eles é que os objetos normalmente são aconpanhandos por metodos("extensoes") para serem usadas 
-Os tipos primitivos não possuem metodos, servem unicamente para armazenar valores  
-Os Wrappers são a versão objetos dos tipos primitivos 
-
-    
