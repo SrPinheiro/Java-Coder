@@ -1,6 +1,6 @@
 package A5POO.A2Shopping;
 
-public class shopping {
+class shopping {
     public static void main(String[] args) {
 
         Pessoa p1 = new Pessoa("jubileu");

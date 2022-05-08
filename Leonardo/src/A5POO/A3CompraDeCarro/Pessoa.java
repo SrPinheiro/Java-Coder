@@ -30,16 +30,17 @@ class Pessoa {
         System.out.println(carro.toString());
     }
 
-    void bloquear(Carro car){
-        car.disponibilidade(this,false);
+    void trava(int car){
+        this.carro.get(car-1).disponibilidade(this);
     }
-    void liberar(Carro car){
-        car.disponibilidade(this,true);
+    void girarChave(int car){
+        this.carro.get(car-1).ligar(this);
     }
-    void motor(Carro car){
-        car.ligar(this);
+
+    void mostrarPreco(int car){
+        this.carro.get(car-1).valor(this);
     }
-    void precoCarro(Carro car, double valor){
-        car.preco(this, valor);
+    void alterarPreco(int car, double valor){
+        this.carro.get(car-1).preco(this, valor);
     }
 }

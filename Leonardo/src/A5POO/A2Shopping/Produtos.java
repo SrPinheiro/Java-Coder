@@ -1,6 +1,6 @@
 package A5POO.A2Shopping;
 
-public class Produtos{
+class Produtos{
     String nome;
     double preco;
     int quantidade;

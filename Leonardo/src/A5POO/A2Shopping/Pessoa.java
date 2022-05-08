@@ -2,7 +2,7 @@ package A5POO.A2Shopping;
 
 import java.util.ArrayList;
 
-public class Pessoa{
+class Pessoa{
     String cliente;
     ArrayList<Produtos> compras = new ArrayList<>();
     Pessoa(String cliente){
@@ -13,7 +13,7 @@ public class Pessoa{
         e.cliente = this;
     }
     void add(String nome, double preco, int quantidade){
-        this.add(new Produtos(nome,preco,quantidade));
+        this.compras.add(new Produtos(nome,preco,quantidade));
     }
 
     int quantidade(){
