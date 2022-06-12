@@ -18,7 +18,7 @@ public class A2Console {
         System.out.printf("Salario: %.1f%n", 1234.5678);
         System.out.format("%%");
 
-        /*
+        /*Erro: Não foi possível localizar nem carregar a classe principal A5POO.A1Pista.Pista
         parametros format:
 
          %s = Tipo string (%s funciona para qualquer valor, pois todos eles podem ser convertidos para string)

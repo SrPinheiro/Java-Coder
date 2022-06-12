@@ -1,7 +1,7 @@
 package A5POO.A1Pista;
 
-class Pista {
-    public static void main(String[] args) {
+public class Pista {
+    public static void main(String[] args){
         Carro c1 = new Carro();
 
         System.out.printf("Esta ligado: %s\n", c1.motor());
