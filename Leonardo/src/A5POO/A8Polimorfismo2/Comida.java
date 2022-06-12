@@ -1,6 +1,6 @@
 package A5POO.A8Polimorfismo2;
 
-class Comida {
+abstract class Comida {
     private double peso;
 
     public Comida(double peso){
