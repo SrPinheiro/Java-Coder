@@ -1,4 +1,4 @@
-package A6Lambdas;
+package A6Lambdas.A1Lambdas;
 
 class Soma implements Calculo{
 
