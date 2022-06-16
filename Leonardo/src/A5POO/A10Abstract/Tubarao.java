@@ -1,8 +1,7 @@
 package A5POO.A10Abstract;
 
-public class Tubarao implements Aquatico{
+public class Tubarao {
 
-    @Override
     public String mover() {
         return "Pela agua";
     }
