@@ -7,6 +7,7 @@ public class Vida {
         Humano joaquina = new Humano();
         Cachorro rex = new Cachorro();
         Tubarao babyshark = new Tubarao();
+        Cobra lucy = new Cobra();
 
         jubileu.verificar(joaquina);
     }

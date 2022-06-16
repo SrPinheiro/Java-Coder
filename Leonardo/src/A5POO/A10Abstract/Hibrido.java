@@ -1,5 +1,5 @@
 package A5POO.A10Abstract;
 
-abstract class Hibrido {
+abstract class Hibrido extends Animal{
 
 }

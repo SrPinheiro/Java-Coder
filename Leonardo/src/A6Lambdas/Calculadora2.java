@@ -7,6 +7,9 @@ public class Calculadora2 {
             return x + y;
         };
         System.out.println(soma.executar(5,6));
+
+        soma = (x, y) -> x * y;
+        System.out.println(soma.executar(5,6));
     }
 
 

@@ -1,5 +1,9 @@
 package A5POO.A10Abstract;
 
-class Cobra extends Terrestre {
+class Cobra extends Hibrido {
 
+    @Override
+    public String mover() {
+        return "Rastejar";
+    }
 }
