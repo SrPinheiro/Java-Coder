@@ -1,4 +1,4 @@
-package A8TratamentoErros.A2CriandoExcecoes;
+package A8TratamentoErros.A2ExcecoesChecadas;
 
 public class A1Exp {
     public static void main(String[] args) {
